@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>landing</title>
+    
+     <!--linking aos css file--> 
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--font awesome kit code-->
+     <script src="https://kit.fontawesome.com/7886940eea.js" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body id="index_body"> 
+    <!--navbar-->
+      <nav class="black " >
+        <div class="navbar-fixed">
+          <div class="nav-wrapper ">
+            <a href="#!" class="brand-logo center " id="brand-logo">Event Portal </a>
+          </div>
+        </div>
+        
+      </nav>
+
+
+      <!--Landing Page -->
+
+      <div class="row">
+          <div class="col s12 l5 eve_lt_sec">
+              <h3>Problem...</h3>
+              <div class="grey-text">
+                  <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam, iusto repellat porro officiis quisquam quasi dicta id distinctio sequi odio esse facere, suscipit ipsum mollitia. Laudantium ipsa nulla eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis commodi sit impedit aliquid amet dignissimos quod sint unde provident accusamus, sapiente eius dolor odio ducimus quia qui exercitationem maxime hic? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro expedita dignissimos consequatur inventore. Eius debitis eaque minus reiciendis fugiat minima, obcaecati saepe ad perferendis velit beatae doloribus odio adipisci pariatur.</p>
+                  <br>
+                  For example:
+                  <div class="card blue lighten-5 black-text eve_card">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe eveniet sapiente facere laborum repellendus sit accusamus tempore eaque? Ipsam beatae dicta placeat voluptate ipsum odit odio fuga, reprehenderit error quisquam.
+                  </div>
+                  The attributes are referenced to as :
+                  <div class="card blue lighten-5 black-text eve_card">
+                    tag1~value  <br>
+                    tag1.tag2~name
+                  </div>
+                  You are given the source code in HRML format consisting of  lines. You have to answer  queries. Each query asks you to print the value of the attribute specified. Print "Not Found!" if there isn't any such attribute.
+                  
+                  <br><br><br>
+                  <div>
+                    <span class="black-text">Input Format </span><br>
+                    The first line consists of two space separated integers,  and .  specifies the number of lines in the HRML source program.  specifies the number of queries.
+                    <br>
+                    The following  lines consist of either an opening tag with zero or more attributes or a closing tag.There is a space after the tag-name, attribute-name, '=' and value.There is no space after the last value. If there are no attributes there is no space after tag name.
+                  </div>
+                  <br><br>
+                  <div>
+                    <span class="black-text">Output Format  </span><br>
+                    The first line consists of two space separated integers,  and .  specifies the number of lines in the HRML source program.  specifies the number of queries.
+                    <br>
+                    The following  lines consist of either an opening tag with zero or more attributes or a closing tag.There is a space after the tag-name, attribute-name, '=' and value.There is no space after the last value. If there are no attributes there is no space after tag name.
+                  </div>
+                  <div>
+                      <span class="black-text">Sample Input</span>
+                      <div class="card blue lighten-5 black-text eve_card">
+                        4 &nbsp; 3 <br>
+                        
+                        tag1.tag2~name <br>
+                        tag1~name <br>
+                        tag1~value <br>
+                      </div>
+                  </div>
+
+                  <div>
+                    <span class="black-text">Sample Output</span>
+                    <div class="card blue lighten-5 black-text eve_card">
+                      4 &nbsp; 3 <br>
+                      
+                      tag1.tag2~name <br>
+                      tag1~name <br>
+                      tag1~value <br>
+                    </div>
+                </div>
+
+              </div>
+          </div>
+
+
+
+          <div class="col s12 l7 eve_rt_sec">
+              <div class="card blue lighten-5 ">
+                  <div class="right eve_rt_card1">
+                    
+                    
+                      
+                      <select class="browser-default">
+                        <option value="" disabled selected>Select Language</option>
+                        <option value="1">C++</option>
+                        <option value="2">Java</option>
+                        <option value="3">Python</option>
+                      </select>
+                  </div>
+
+
+                  <br><br><br>
+                  <div class="">
+                    <div class="  white black-text container eve_rt_container">
+
+                    </div>
+                  </div>
+                  <div class="">
+                      <a href="#" class="btn  right black white-text eve_rt_run">Submit Code</a>
+                      <a href="#" class="btn  right black white-text evr_rt_run">Run Code </a>
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+   
+
+   
+
+
+
+      
+
+
+      
+      
+
+
+
+
+    
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--linking js file-->
+    <script src="js/script.js"></script>
+    <!-- linking aos js file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(document).ready(function () {
+        //Init Side nav
+        $('.button-collapse').sideNav();
+        
+        $('select').formSelect();
+
+
+
+        
+        
+        
+    });
+    </script>
+    
+  </body>
+</html>

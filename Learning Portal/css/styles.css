@@ -1,0 +1,166 @@
+/* Title Page */
+.color-section{
+  background-image:url(../img/background.jpg);
+
+}
+  #title{
+    padding: 7% 15%;
+  }
+  .white-section{
+    background-color: rgb(248, 219, 192);
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  
+  .logo{
+    position: absolute;
+    left: 30px;
+    top:30px;
+      width: 15%;
+      height: 9%!important;
+      
+  }
+  
+  .main-heading{
+    text-align: left;
+    font-size: 9rem;
+    font-family: "Merienda One";
+    color:#fff;
+  }
+  @media screen and (max-width:400px){
+    .main-heading{
+      font-size: 5rem;
+    }
+    .logo{
+      position: absolute;
+      left: 30px;
+      top:30px;
+        width: 30%;
+        height: 9%!important;
+        
+    }
+
+  }
+  
+  .nav-item{
+    padding: 0 15px;
+  }
+  
+  .nav-link{
+    padding-top: 0;
+    font-size: 1.5rem;
+    font-family: "montserrat";
+    font-weight: lighter;
+  }
+
+  #main-section{
+    padding-top: 110px;
+  }
+
+
+  /* Choose Section */
+
+  .white-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+#choose .white-section{
+  padding: 3% 15%;
+}
+.heading2{
+  font-size: 5rem;
+  font-family: "Merienda One";
+  line-height: 2.5;
+}
+
+.icon{
+  color:#01A9B4;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+  color:#111D5E;
+}
+
+
+
+#carousel{
+  height: 70vh!important;
+}
+#lrn_caritem{
+  background-image: url(../img/background.jpg);
+}
+.testimonial-text{
+  margin-top: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+.d-block{
+  position: relative;
+  margin-top: 4rem;
+  border-radius: 5%;
+  height: 300px!important;
+  
+}
+
+.new{
+  margin: 5px 10px;
+}
+
+.lrn_box{
+  height: 25vh;
+}
+.heading3{
+  position: relative;
+  top: 2.5rem;
+  margin-top: 0rem!important;
+}
+#btn-green{
+  border: solid thin green;
+}
+#btn-green:hover{
+  border: solid thin green;
+  background-color: green!important;
+  color: white!important;
+}
+#btn-yellow{
+  border: solid thin black;
+  margin: 0.5rem;
+}
+#btn-yellow:hover{
+  border: solid thin yellow;
+  background-color: yellow!important;
+  color: white!important;
+}
+#btn-red{
+  border: solid thin red;
+}
+#btn-red:hover{
+  border: solid thin red;
+  background-color: red!important;
+  color: white!important;
+}
+
+/* Footer */
+
+#final{
+  text-align: center;
+  padding: 7% 15%;
+}
+.foot{
+  color: #fff;
+}
+
+.last{
+  color: #fff;
+  padding: 10px;
+}
+
+.boxed {
+  position: center;
+  background-color: red;
+  width: auto;
+  padding: 50px;
+}
+

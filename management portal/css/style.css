@@ -1,0 +1,265 @@
+/*html, body, ul, li {
+    margin: 0;
+    padding: 0;
+  
+    color:#272424;
+    background-color: #f1f1f6;
+}*/
+body{
+	background-color: #EFEEED;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header{
+	width: 100%;
+	height: 25px;
+	border-bottom:1.5px solid #FF1053; 
+	background-color: #EFEEED;
+
+}
+
+.heading{
+	width: 40%;
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+	font-weight: bolder;
+	color: #FF1053;
+	transition: 0.5s;
+}
+.heading:hover{
+	width: 60%;
+	font-size: 130px;
+}
+.container1{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background: white;
+	padding-top:20px;
+	margin-top: 50px;
+}
+.event{
+	width:100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+
+}
+.button{
+	width: 300px;
+	padding: 10px;
+	background-color: #FF1053;
+	color: white;
+	font-size: 30px;
+	transform: uppercase;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+}
+.button:hover{
+	width: 350px;
+	font-size: 34px;
+	background-color: #F7376A;
+
+}
+
+.timeline {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #EFEEED;
+    border-radius: 10px;
+    
+}
+
+.timeline ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
+   line-height: 30px;
+}
+
+.point {
+    min-width: 20px;
+    height: 20px;
+    background-color: #F47199;
+    border-radius: 100%;
+    z-index: 9;
+    border: 3px #333333 solid;
+    position: relative;
+    left: 1px;
+}
+
+
+
+.timeline ul li .content {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+}
+
+.timeline ul li .date {
+    width: 50%;
+    padding: 0 20px;
+    font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+    background-color: #F4C9D6 ;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.timeline ul li .content h3 {
+    padding: 10px 20px;
+    background-color: #F7316E;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.timeline ul li .content p {
+    padding: 10px 20px;
+    background-color: #F4C9D6;
+    margin-top: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+    float: right
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: #333333;
+}
+
+
+
+
+
+
+
+
+/*>>>>>>>>>   Admin panel css    <<<<<<<<<*/
+.form{
+    position: relative;
+    width: 30%;
+    margin: 10px auto;
+    background-color: #EFEEED;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.Admin{
+  color: #FF1053;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+.points{
+  text-align: left;
+  font-family:'Nunito', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+  margin-top: 15px;
+  float: left; 
+}
+input{
+  float: right;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid lightgrey;
+
+
+}
+/*....... Admin panel css ends here.........*/
+
+
+
+
+
+
+
+
+
+
+.emptydiv{
+  position:relative;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  background-color:#EFEEED;
+  height: 80px;
+}
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  background:url("../images/techi.jpg");
+  background-size: 100%;
+  /*background-position: fixed;*/
+  color: white;
+  font-size: bolder;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size:50px;
+  padding: 30px;
+  
+}
+
+@media  only screen and (min-width: 1000px){
+ .event{
+	width:50%;
+	text-align: center;
+	background-color: white;
+	float: left;
+}
+ .point {
+        min-width: 15px;
+        height: 15px;
+    }
+}
+
+

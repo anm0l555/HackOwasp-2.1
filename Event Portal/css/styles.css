@@ -1,0 +1,132 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y: auto;
+  }
+
+  .eve_lt_sec{
+      text-align: justify;
+      height: 91vh;
+      overflow-y: scroll;
+      padding-right: 1rem;
+      padding-left: 1rem;
+  }
+  .eve_rt_sec{
+    
+    padding-left: 2rem;
+}
+.eve_rt_card1{
+    padding:1rem!important;
+    margin: 1rem;
+}
+
+.eve_rt_container{
+    position: relative;
+   width: fit-content;
+   height: 70vh;
+   border-top: solid thin;
+   width: 100%!important;
+   margin: 2%!important;
+   right: 2%!important;
+    
+}
+  .eve_card {
+      padding: 1rem;
+  }
+ 
+.eve_rt_run{
+    margin-left: 1rem;
+}  
+
+
+/*Index 2 */
+
+.ind_qcards{
+    padding:2rem ;
+}
+.ind2_qcard_title{
+    padding-left: 1.7rem;
+    padding-top: 1rem;
+}
+.ind2_input{
+    padding-left: 0!important;
+    padding-top: 0!important;
+}
+
+.ind2_rt_sec{
+    height: 91vh;
+    overflow-y: scroll;
+}
+.ind2_lt_sec{
+    background: url(../img/mistake-1966448_1920.jpg);
+    height : 91vh!important  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ind2_row{
+    margin-bottom: 0!important  ;
+}
+
+
+/*User Page*/
+.mypro_img{
+    margin-top: 30px;
+    
+   
+    margin-bottom: 40px;
+  }
+
+  .mypro_create{
+      
+    padding: 1rem;    
+  }
+  .mypro_join{
+      padding: 1rem;
+  }
+
+
+
+  /*Team Page*/
+
+  .team_bkg{
+      background-image: url(../img/sea-2755901_1920.jpg);
+      height: 45vh!important;
+      padding-top: 3rem;
+  }
+  .team_avatar{
+      height: 150px;
+      width: 150px;
+      padding: 5px!important;
+      background-color: white;
+  }
+  .team_eventsec{
+      padding-left: 2rem;
+      padding-right: 2rem ;
+  }
+  .team_teamsec{
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+
+  }
+
+  .team_teamsec_bkg{
+      height: 120px;
+  }
+
+  .team_teamsec_avtr{
+      height: 150px!important;
+      width: 150px!important;
+      padding: 5px;
+      background-color: white;
+      
+  }
+  .team_teamctnt{
+    position: relative;
+      margin-top: -6rem!important;
+  }
+  .team_teamsechd{
+      margin-top: 0!important;
+  }
+  #team_teamseccards{
+      border-radius: 10px;
+  }
